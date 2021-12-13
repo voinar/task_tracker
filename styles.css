@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+
+html {
+    font-family: 'Raleway', sans-serif;;
+}
+
+body {
+    background-color: #eef9ff
+}
+
+.section-center {
+    margin: 80px auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.014), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;    
+    min-width: 350px;
+    max-width: 400px;
+}
+
+.section-center h2 {
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    width: 70%;
+    /* border: 1px solid red; */
+    display: inline-block;
+    background-color: #b6d7eb41;
+}
+
+#grocery {
+    background-color: #ffffff00;
+}
+
+.form-control:hover {
+    background-color: #dcf4ff;
+}
+
+::selection {
+    color: rgb(183, 0, 255);
+    background: rgb(25, 0, 255);
+  }
+
+.form-control > input {
+    border: 0px;
+    padding: 8px;
+}
+
+.submit-btn {
+    background-color:rgba(91, 187, 231, 0.295);
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    float: right;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.grocery-container {
+    margin-top: 2rem;
+    visibility: hidden;
+}
+
+.show-container {
+    visibility: visible;
+}
+
+.grocery-item {
+        /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-container button {
+    /* border: 1px solid red; */
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.clear-btn {
+    color:rgb(196, 53, 53);
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    letter-spacing: .1rem;
+}
+
+.clear-btn:hover {
+    color:rgb(88, 0, 55);
+}
+
+.edit-btn {
+    color: rgb(0, 219, 0);
+}
+
+.delete-btn {
+    color: rgb(194, 0, 194);
+}
+
+.alert-danger {
+    background-color: rgb(250, 215, 215);
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: rgb(215, 250, 220);
+    border-radius: 5px;
+}
